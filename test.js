@@ -11,4 +11,13 @@ console.log('Hello Codeit!')
 
 
 
-document.write('Hello World!!!----Byte');
+document.write('Line 1');
+document.write('Line 2');
+document.write('Line 3');
+document.write('Line 4');
+document.write('Line 5');
+document.write('Line 6');
+document.write('Line 7');
+document.write('Line 8');
+document.write('Line 9');
+document.write('Line 10');
