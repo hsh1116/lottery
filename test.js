@@ -11,13 +11,13 @@ console.log('Hello Codeit!')
 
 
 
-document.write('Line 1');
-document.write('Line 2');
-document.write('Line 3');
-document.write('Line 4');
-document.write('Line 5');
-document.write('Line 6');
-document.write('Line 7');
-document.write('Line 8');
-document.write('Line 9');
-document.write('Line 10');
+document.writeln('Line 1');
+document.writeln('Line 2');
+document.writeln('Line 3');
+document.writeln('Line 4');
+document.writeln('Line 5');
+document.writeln('Line 6');
+document.writeln('Line 7');
+document.writeln('Line 8');
+document.writeln('Line 9');
+document.writeln('Line 10');
