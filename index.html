@@ -10,6 +10,21 @@
             function testFunc() {
                 alert('테스트 버튼 클릭!!!')
             }
+
+            function getPensionLotterNum()
+            {
+                year = new Date().getFullYear();
+                month = new Date().getMonth();
+                day = new Date().getDay();
+
+                hour = new Date().getHours();
+                minute = new Date().getMinutes();
+                second = new Date().getSeconds();
+
+                ms = new Date().getMilliseconds();
+
+                alert(year + '-' + month + '-'+ day + '-' + hour + '-' + minute + '-' + second + '-' + ms)
+            }
         </script>
     </head>
     
@@ -18,7 +33,8 @@
         <input type="submit" name="submit" value="제출" />
         <input type="reset" name="reset" value="초기화" />
         <input type="button" name="ok" onclick="alert('Hello World!')" value="완료" />
-        <input type="button" name="testBtn" onclick="testFunc()" value="테스트" />
+        <!-- <input type="button" name="testBtn" onclick="testFunc()" value="테스트" /> -->
+        <input type="button" name="btnPensionLottery" onclick="getPensionLotterNum()" value="연금복권 숫자 구하기" />
     
         <!-- <script src="./test.js"></script>
             -->
